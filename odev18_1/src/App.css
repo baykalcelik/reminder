@@ -1,0 +1,55 @@
+.App {
+  width:100%;
+  min-height: 100vh;
+  background-color: rgb(250, 150, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin:0px;
+  padding: 4rem;
+
+}
+
+#panel{
+  width:auto;
+  height:auto;
+  box-sizing: border-box;
+  margin:0px;
+  /* padding:0px 0px 1rem 1.5rem; */
+  padding:1rem;
+
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+#header{
+  margin: 2rem 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+#clearBtn{
+  align-self: center;
+  width:100%;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(250, 150, 167);
+  border:none;
+  outline:none;
+  padding:0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top:1rem;
+}
+
+#clearBtn:hover{
+  cursor:pointer;
+
+}
