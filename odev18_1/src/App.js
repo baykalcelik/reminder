@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div id="panel">
         <span id="header">{items.length} birthdays today</span> 
-        {items.map((item, index)=>{return <Card imgUrl={item.image} name={item.name} age={item.age}  />})}
+        {items.map((item, index)=>{return <Card key={index} imgUrl={item.image} name={item.name} age={item.age}  />})}
         <button id="clearBtn" onClick={()=>{setItems([])}}>Clear All</button>
       </div>
     </div>
